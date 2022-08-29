@@ -1,0 +1,39 @@
+.icon {
+    
+    &__area {
+        width: 100%;
+        max-width: 1080px;
+        margin: 130px auto 114px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__item {
+        max-width: 330px;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        text-align: center;
+        color: #32363C;
+    }
+
+    &__picture {
+        display: block;
+        margin: 0 auto;
+        min-width: 120px;
+    }
+
+
+}
+

@@ -1,0 +1,42 @@
+.black {
+    
+    &__area {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto 130px;
+        display: flex;
+        justify-content: space-between;
+        background: #1A1C1D;
+        position: relative;
+  }
+
+    &__description {
+        margin: 100px 0 114px 180px;
+        max-width: 540px;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 59px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        max-width: 500px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 140%;
+    }
+
+    &__picture {
+        top: 50px;
+        right: 220px;
+        position: absolute;
+    }
+
+}

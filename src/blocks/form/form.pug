@@ -1,0 +1,11 @@
+mixin form(modifier)
+  section.form&attributes(attributes)
+    .form__area
+      img(src='img/form_pack.png' alt='Пачка кофе').form__pack
+      .form__info 
+        h1.form__title Оставьте заявку сейчас! <br>Получите пробник кофе - совершенно бесплатно!
+        form(action='send.php' method='post').form__send
+          input(type='text' name='phone' placeholder='Ваш номер телефона').form__phone
+          input(type='submit' value='Оставить заявку').form__buttons
+        p.form__text Позвоним вам и ответим на все ваши вопросы, поможем выбрать сорт кофе.
+      

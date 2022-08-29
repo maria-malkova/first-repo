@@ -1,0 +1,63 @@
+.roster {
+    p.roster__text::after {
+        content: '>'
+    }
+    
+    &__area {
+        width: 100%;
+        max-width: 1080px;
+        margin: 18px auto 138px;
+
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 138px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        counter-reset: section;
+    }
+    &__text {
+        max-width: 290px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: #32363C;
+        position: relative;
+        z-index: 1;
+    }
+    &__text::before {
+        counter-increment: section;
+        content: "0" counter(section);
+        position: absolute;
+        top: -80px;
+        z-index: -1;
+
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 119px;
+        text-transform: uppercase;
+        color: #F5F8F9;
+    }
+    &__text:not(:nth-child(3n))::after {
+        content: '>';
+        position: absolute;
+        left: 330px;
+        top: -20px;
+
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 119px;
+        text-transform: uppercase;
+        color: #F5F8F9;
+    }
+
+    
+
+}
