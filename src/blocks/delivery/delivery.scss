@@ -4,6 +4,7 @@
         max-width: 1080px;
         margin: 0 auto 130px;
         display: flex;
+        align-items: center;
     }
 
     &__description {
@@ -34,9 +35,11 @@
         margin-top: 34px;
         display: flex;
         align-items: center;
-        width: 340px;
+        max-width: 340px;
         text-decoration: none;
+        display: inline-flex; /* Почему строчка сдвинулась на сайте чуть ниже? */
     }
+
 
     &__know {
         margin-left: 16px;
@@ -52,8 +55,6 @@
 
  
     &__picture {
-        margin-top: 52px;
-        height: 362px;
         display: grid;
         grid-template-columns: repeat(2, 251px);
         gap: 1px;

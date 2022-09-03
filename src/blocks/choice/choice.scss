@@ -1,0 +1,75 @@
+.choice {
+    background: #F5F8F9;
+
+    &__area {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    &__title {
+        max-width: 706px;
+        margin: 100px 0 40px;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #1A1C1D;
+    }
+  
+    &__text {
+        max-width: 500px;
+        margin-bottom: 68px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 140%;
+        color: #332F2F;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        margin-bottom: 54px;
+        max-width: 314px;
+        min-height: 512px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__photo {
+        margin-bottom: 28px;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: #1A1C1D;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 140%;
+        color: #32363C;
+    }
+
+    &__price {
+        margin-top: auto;
+        font-family: 'Oswald';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #1A1C1D;
+    }
+}

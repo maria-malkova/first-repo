@@ -1,0 +1,68 @@
+.respect {
+  &__area {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto 120px;
+    display: grid;
+    grid-template-columns: 300px 706px;
+    grid-template-areas: 'title title'
+                         'point description';
+    justify-content: space-between;
+}
+
+  &__title {
+    grid-area: title;
+    margin-bottom: 88px;
+    max-width: 540px;
+  }
+
+  &__point {
+    grid-area: point;
+  }
+
+  &__description {
+    grid-area: description;
+  }
+
+  &__caption {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #1A1C1D;
+    margin-bottom: 40px;
+  }
+
+  &__disclaimer {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #32363C;
+    max-width: 500px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1A1C1D;
+    margin-bottom: 56px;
+    align-items: end;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #32363C;
+    margin-bottom: 44px;
+  }
+  
+
+  /* шрифт БЕСИТ. Надо скачать: 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600; */
+ 
+}
